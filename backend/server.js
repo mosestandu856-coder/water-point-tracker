@@ -19,11 +19,18 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // ── Security Headers ─────────────────────────────────────────────────────────
-app.use(helmet());
+// Disable CSP in production so Vite-built assets (JS/CSS) load correctly
+app.use(
+  helmet({
+    contentSecurityPolicy: false,
+    crossOriginEmbedderPolicy: false
+  })
+);
 
 // ── CORS ─────────────────────────────────────────────────────────────────────
-// Allows credentials (cookies) to be sent across origins in development & production
-const ALLOWED_ORIGIN = process.env.FRONTEND_ORIGIN || "http://localhost:3000";
+// In production the frontend is served by the same Express server (same origin),
+// so we allow all origins for /api/* — credentials still restricted to same-origin
+const ALLOWED_ORIGIN = process.env.FRONTEND_ORIGIN || true; // true = reflect request origin
 app.use(
   cors({
     origin: ALLOWED_ORIGIN,
