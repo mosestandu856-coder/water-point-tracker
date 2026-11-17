@@ -1,0 +1,24 @@
+# render.yaml — Infrastructure as Code for Render.com Free Hosting
+services:
+  - type: web
+    name: water-point-tracker
+    env: node
+    plan: free
+    region: frankfurt # or oregon / ohio
+    buildCommand: npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DB_NAME
+        value: waterTracker
+      - key: MONGODB_URI
+        sync: false # Set securely in Render dashboard
+      - key: JWT_SECRET
+        generateValue: true
+      - key: COOKIE_SECRET
+        generateValue: true
+      - key: DEMO_PASSWORD
+        value: WaterTracker@2026
+      - key: DEMO_MODE
+        value: "true"

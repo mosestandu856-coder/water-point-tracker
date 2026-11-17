@@ -1,0 +1,71 @@
+[
+  {
+    "_id": "tech_01",
+    "name": "Moses Zach",
+    "phone": "0726 927 445",
+    "skills": [
+      "hand pump",
+      "borehole"
+    ],
+    "coversCommunities": [
+      "com_01",
+      "com_02"
+    ],
+    "available": true
+  },
+  {
+    "_id": "tech_02",
+    "name": "Gatrude",
+    "phone": "0782 200 302",
+    "skills": [
+      "piped water",
+      "tap stand"
+    ],
+    "coversCommunities": [
+      "com_03",
+      "com_05"
+    ],
+    "available": true
+  },
+  {
+    "_id": "tech_03",
+    "name": "Joseph",
+    "phone": "0701 300 403",
+    "skills": [
+      "hand pump",
+      "shallow well"
+    ],
+    "coversCommunities": [
+      "com_04"
+    ],
+    "available": false
+  },
+  {
+    "_id": "tech_04",
+    "name": "Brian Erick",
+    "phone": "0752 400 504",
+    "skills": [
+      "borehole",
+      "water testing"
+    ],
+    "coversCommunities": [
+      "com_02",
+      "com_03",
+      "com_04"
+    ],
+    "available": true,
+    "hasOwnToolkit": true
+  },
+  {
+    "_id": "tech_05",
+    "name": "Dominic Lopir",
+    "phone": "0774 500 605",
+    "skills": [
+      "hand pump"
+    ],
+    "coversCommunities": [
+      "com_01"
+    ],
+    "available": true
+  }
+]

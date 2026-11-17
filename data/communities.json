@@ -1,0 +1,63 @@
+[
+  {
+    "_id": "com_01",
+    "name": "Bugema",
+    "district": "Luweero",
+    "households": 320,
+    "population": 1800,
+    "contact": {
+      "name": "Esther Nakato",
+      "role": "Local Council Chairperson",
+      "phone": "0700 000 101"
+    },
+    "universityLink": "Student volunteers visit monthly"
+  },
+  {
+    "_id": "com_02",
+    "name": "Kalagala",
+    "district": "Luweero",
+    "households": 410,
+    "population": 2300,
+    "contact": {
+      "name": "Peter Ssemwogerere",
+      "role": "Market Committee Chairperson",
+      "phone": "0700 000 102"
+    }
+  },
+  {
+    "_id": "com_03",
+    "name": "Ziroobwe",
+    "district": "Luweero",
+    "households": 520,
+    "population": 2900,
+    "contact": {
+      "name": "Agnes Atim",
+      "role": "Health Volunteer",
+      "phone": "0700 000 103"
+    }
+  },
+  {
+    "_id": "com_04",
+    "name": "Bamunanika",
+    "district": "Luweero",
+    "households": 260,
+    "population": 1400,
+    "contact": {
+      "name": "Moses Kiggundu",
+      "role": "Local Council Chairperson",
+      "phone": "0700 000 104"
+    }
+  },
+  {
+    "_id": "com_05",
+    "name": "Wobulenzi",
+    "district": "Luweero",
+    "households": 600,
+    "population": 3300,
+    "contact": {
+      "name": "Rose Namutebi",
+      "role": "School Head Teacher",
+      "phone": "0700 000 105"
+    }
+  }
+]

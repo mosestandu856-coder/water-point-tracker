@@ -1,0 +1,91 @@
+[
+  {
+    "_id": "rpt_001",
+    "waterPointId": "wp_02",
+    "reportedBy": {
+      "name": "Peter Ssemwogerere",
+      "phone": "0700 000 102"
+    },
+    "reportedAt": {
+      "$date": "2026-10-09T07:15:00Z"
+    },
+    "problem": "Pump handle snapped",
+    "severity": "high",
+    "status": "assigned",
+    "assignedTo": "tech_01",
+    "resolvedAt": null
+  },
+  {
+    "_id": "rpt_002",
+    "waterPointId": "wp_04",
+    "reportedBy": {
+      "name": "Agnes Atim",
+      "phone": "0700 000 103"
+    },
+    "reportedAt": {
+      "$date": "2026-10-05T16:40:00Z"
+    },
+    "problem": "Water level very low, muddy",
+    "severity": "medium",
+    "status": "open",
+    "assignedTo": null,
+    "resolvedAt": null
+  },
+  {
+    "_id": "rpt_003",
+    "waterPointId": "wp_05",
+    "reportedBy": {
+      "name": "Brian Mugabi",
+      "role": "Student volunteer",
+      "phone": "0700 000 106"
+    },
+    "reportedAt": {
+      "$date": "2026-10-11T06:30:00Z"
+    },
+    "problem": "Tap leaking, no pressure",
+    "severity": "high",
+    "status": "open",
+    "assignedTo": null,
+    "resolvedAt": null
+  },
+  {
+    "_id": "rpt_004",
+    "waterPointId": "wp_03",
+    "reportedBy": {
+      "name": "Rose Namutebi",
+      "phone": "0700 000 105"
+    },
+    "reportedAt": {
+      "$date": "2026-06-18T08:00:00Z"
+    },
+    "problem": "Spring cover cracked",
+    "severity": "low",
+    "status": "resolved",
+    "assignedTo": "tech_02",
+    "resolvedAt": {
+      "$date": "2026-06-20T14:00:00Z"
+    },
+    "costUGX": 85000,
+    "notes": "Cover resealed and fence repaired."
+  },
+  {
+    "_id": "rpt_005",
+    "waterPointId": "wp_06",
+    "reportedBy": {
+      "name": "Moses Kiggundu",
+      "phone": "0700 000 104"
+    },
+    "reportedAt": {
+      "$date": "2026-09-03T09:10:00Z"
+    },
+    "problem": "Pump squeaking and hard to lift",
+    "severity": "medium",
+    "status": "resolved",
+    "assignedTo": "tech_04",
+    "resolvedAt": {
+      "$date": "2026-09-05T11:30:00Z"
+    },
+    "costUGX": 40000,
+    "notes": "Seals replaced."
+  }
+]

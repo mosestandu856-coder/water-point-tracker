@@ -1,0 +1,73 @@
+[
+  {
+    "_id": "wp_01",
+    "communityId": "com_01",
+    "type": "borehole",
+    "landmark": "Near the university main gate",
+    "installedYear": 2016,
+    "householdsServed": 120,
+    "status": "working",
+    "lastServiced": {
+      "$date": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "_id": "wp_02",
+    "communityId": "com_02",
+    "type": "borehole",
+    "landmark": "Behind Kalagala Central Market",
+    "installedYear": 2012,
+    "householdsServed": 200,
+    "status": "broken",
+    "lastServiced": {
+      "$date": "2025-11-02T00:00:00Z"
+    }
+  },
+  {
+    "_id": "wp_03",
+    "communityId": "com_05",
+    "type": "protected_spring",
+    "landmark": "Below the church",
+    "installedYear": 2019,
+    "householdsServed": 90,
+    "status": "working",
+    "lastServiced": {
+      "$date": "2026-06-20T00:00:00Z"
+    }
+  },
+  {
+    "_id": "wp_04",
+    "communityId": "com_03",
+    "type": "shallow_well",
+    "landmark": "Near the health centre",
+    "installedYear": 2008,
+    "householdsServed": 60,
+    "status": "low_yield",
+    "lastServiced": null
+  },
+  {
+    "_id": "wp_05",
+    "communityId": "com_03",
+    "type": "tap_stand",
+    "landmark": "Near Ziroobwe Central Market",
+    "installedYear": 2021,
+    "householdsServed": 180,
+    "status": "broken",
+    "lastServiced": {
+      "$date": "2026-02-11T00:00:00Z"
+    },
+    "managedBy": "Water User Committee"
+  },
+  {
+    "_id": "wp_06",
+    "communityId": "com_04",
+    "type": "borehole",
+    "landmark": "Next to the primary school",
+    "installedYear": 2014,
+    "householdsServed": 110,
+    "status": "working",
+    "lastServiced": {
+      "$date": "2026-09-05T00:00:00Z"
+    }
+  }
+]
